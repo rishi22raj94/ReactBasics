@@ -33,7 +33,7 @@ class App extends Component{
     const SearchField = this.state.SearchField;
     It just deconstructs the state properties into const.*/
     return (
-      <div className="App">
+      <div className="App">      
       <h1>Clients Rolodex</h1>
       <SearchBox placeholderforsearchbox='Search for clients' changeEvent={this.handleChange} />
       <CardList clients={filteredClients} />                     
